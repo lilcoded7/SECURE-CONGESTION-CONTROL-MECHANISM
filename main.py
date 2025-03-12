@@ -310,5 +310,5 @@ def test_hlba():
     for result in results:
         print(f"{result['packet_size']:^12} | {result['hlba_time']:.5f} | {result['traditional_time']:.5f} | {result['improvement_percentage']:.3f}")
 
-if __name__ == "__main__":
-    test_hlba()
+
+test_hlba()
