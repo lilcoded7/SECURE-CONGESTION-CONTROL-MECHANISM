@@ -1,5 +1,17 @@
 # Heightened Leaky Bucket Algorithm (HLBA) Documentation
 
+## Installation
+
+Clone the repository with:
+```bash
+git clone https://github.com/lilcoded7/SECURE-CONGESTION-CONTROL-MECHANISM.git
+```
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
 ## Overview
 The Heightened Leaky Bucket Algorithm (HLBA) is an enhanced version of the traditional Leaky Bucket Algorithm used in network traffic shaping. HLBA integrates Pascal's Triangle for encryption and Kadane's Algorithm for packet transmission optimization to provide improved performance and security for edge computing applications.
 
@@ -53,3 +65,12 @@ Testing was conducted with the following parameters:
 - Secure communication in distributed systems
 - Traffic shaping in congested networks
 - Real-time data processing in resource-constrained environments
+
+## Running the Tests
+
+To run the algorithm tests:
+```bash
+python3 main.py
+```
+
+This will execute the benchmarking process and display a comparison table of HLBA versus the traditional Leaky Bucket Algorithm.
