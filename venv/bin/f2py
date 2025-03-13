@@ -1,4 +1,6 @@
-#!/home/coded/Desktop/dowsonproject/venv/bin/python3
+#!/bin/sh
+'''exec' "/home/coded/Desktop/SECURE-CONGESTION-CONTROL-MECHANISM SOURCE CODE/venv/bin/python3" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
