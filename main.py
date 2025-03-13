@@ -412,5 +412,4 @@ def test_hlba():
     print("="*90)
 
 
-# Run the test
 test_hlba()
